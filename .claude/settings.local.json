@@ -5,7 +5,12 @@
       "WebFetch(domain:api.llama.fi)",
       "WebFetch(domain:api-docs.defillama.com)",
       "Bash(npm -v)",
-      "Bash(',:*)"
+      "Bash(',:*)",
+      "Bash(npm i:*)",
+      "Bash(vercel --yes --prod)",
+      "Bash(vercel --yes --prod --scope gleb02fs-projects)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo:*)"
     ]
   }
 }
