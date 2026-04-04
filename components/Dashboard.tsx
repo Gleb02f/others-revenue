@@ -90,6 +90,13 @@ export function Dashboard() {
           </p>
         </div>
 
+        {/* Mobile: founder panel on top */}
+        {selectedProtocol && (
+          <div className="lg:hidden mb-8">
+            <FounderPanel protocol={selectedProtocol} timeframe={timeframe} />
+          </div>
+        )}
+
         {/* Main layout: cards + founder panel */}
         <div className="flex gap-6">
           {/* Left: protocol cards */}
